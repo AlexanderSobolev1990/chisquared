@@ -1,0 +1,7 @@
+set key fixed left top vertical Right noreverse enhanced autotitle box lt black linewidth 2.000 #dashtype solid
+set style data linespoints
+set grid
+set title "ChiSquared" 
+set title  font ",20" textcolor lt -1 norotate
+NO_ANIMATION = 1
+plot [0:4][0:1.1] "TEST_CANAL.DAT","TEST_KELLEY.DAT","TEST_PEIZERPRATT.DAT","TEST_SOBOLEV.DAT"
